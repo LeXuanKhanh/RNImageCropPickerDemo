@@ -26,7 +26,6 @@
 	<true/>
 	<key>NSAppTransportSecurity</key>
 	<dict>
-	  <!-- Do not change NSAllowsArbitraryLoads to true, or you will risk app rejection! -->
 		<key>NSAllowsArbitraryLoads</key>
 		<false/>
 		<key>NSAllowsLocalNetworking</key>
@@ -48,5 +47,11 @@
 	</array>
 	<key>UIViewControllerBasedStatusBarAppearance</key>
 	<false/>
+	<key>NSPhotoLibraryUsageDescription</key>
+	<string>App want to use access photo library to select a photo for uploading avatar</string>
+	<key>NSCameraUsageDescription</key>
+	<string>App want to use access camera to take a photo for profile avatar image</string>
+	<key>NSMicrophoneUsageDescription</key>
+	<string>App want to use microphone to record sound while recording a video</string>
 </dict>
 </plist>

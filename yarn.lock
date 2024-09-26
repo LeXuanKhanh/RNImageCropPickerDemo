@@ -3006,6 +3006,8 @@ __metadata:
     prettier: 2.8.8
     react: 18.2.0
     react-native: 0.74.4
+    react-native-image-crop-picker: ^0.41.2
+    react-native-video: ^6.4.3
     react-test-renderer: 18.2.0
     typescript: 5.0.4
   languageName: unknown
@@ -7917,6 +7919,25 @@ __metadata:
   version: 17.0.2
   resolution: "react-is@npm:17.0.2"
   checksum: 9d6d111d8990dc98bc5402c1266a808b0459b5d54830bbea24c12d908b536df7883f268a7868cfaedde3dd9d4e0d574db456f84d2e6df9c4526f99bb4b5344d8
+  languageName: node
+  linkType: hard
+
+"react-native-image-crop-picker@npm:^0.41.2":
+  version: 0.41.2
+  resolution: "react-native-image-crop-picker@npm:0.41.2"
+  peerDependencies:
+    react-native: ">=0.40.0"
+  checksum: c1333b3b761e948bd0bc856773f68dcc859c7ce39dda3e14d2c32c17d55927735bfc5cbbb7ac5e8bac21feda87c93399f2a596aca7d5b0611cc1e8203d97ad2e
+  languageName: node
+  linkType: hard
+
+"react-native-video@npm:^6.4.3":
+  version: 6.4.3
+  resolution: "react-native-video@npm:6.4.3"
+  peerDependencies:
+    react: "*"
+    react-native: "*"
+  checksum: 94ae488505a74c247b847b4fc6afcbfaf0ec0b9adc2a1e19b8637e8c240d4c37e6584ebf368b9dcc6d308c27f6e4e06848181a9dd05ee3a71abb8f3ac786b1f4
   languageName: node
   linkType: hard
 
